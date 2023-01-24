@@ -29,5 +29,10 @@ function hourTracker() {
         var blockHour = parseInt($(this).attr("id").split("hour")[1]);
         console.log(blockHour, currentHour)
 
+        if (blockHour < currentHour) {
+            $(this).addClass("past");
+            $(this).removeClass("future");
+            $(this).removeClass("present");
+        }
     })
 }
