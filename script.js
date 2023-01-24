@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
+    $("#currentDay").text(moment().format("Do MMMM YYYY, h:mm:ss a"));
 
     $(".saveBTN").on("click", function () {
         console.log(this);
