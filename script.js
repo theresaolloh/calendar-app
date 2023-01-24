@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("currentDay").text(moment().format("DD MM YYYY, h:mm:ss a"));
+    $("#currentDay").text(moment().format("DD MM YYYY, h:mm:ss a"));
 
     $(".saveBTN").on("click", function () {
         console.log(this);
@@ -9,5 +9,4 @@ $(document).ready(function () {
 
         localStorage.setItem(time, text);
     }
-
-}
+})
