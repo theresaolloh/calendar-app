@@ -21,3 +21,13 @@ $("#hour14 .description").val(localStorage.getItem("hour14"));
 $("#hour15 .description").val(localStorage.getItem("hour15"));
 $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
+
+function hourTracker() {
+    var currentHour = moment().hour();
+
+    $(".time-block").each(function () {
+        var blockHour = parseInt($(this).attr("id").split("hour")[1]);
+        console.log(blockHour, currentHour)
+
+    })
+}
