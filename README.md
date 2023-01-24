@@ -6,11 +6,11 @@ This project challenged us to create a simple calendar application that allows a
 
 
 Technologies Used
-HTML
-CSS
-VS Code
-Git and GitHub
-Moment JS Library
+**HTML
+**CSS
+**VS Code
+**Git and GitHub
+**Moment JS Library
 
 
 ## User Story
