@@ -6,7 +6,8 @@ $(document).ready(function () {
         console.log(this);
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
-    }
-    $("#hour8 .description").val(localStorage.getItem("hour8"));
-}
 
+        localStorage.setItem(time, text);
+    }
+
+}
